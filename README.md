@@ -34,3 +34,5 @@ junction trees must have node data:
 junction tree have 'h' as node data and 'e' as edge data
 
 ***************solve RDKit vectInt problem first to get tree decomp.
+Look between server and local versions
+run a test on local first
