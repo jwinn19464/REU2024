@@ -24,3 +24,13 @@ check adj matrix and weight tensors --> edata['weight'] returns edge weight tens
 
 weighted dgl graph was created from adj matrix
 
+tox21_recent notebook:
+Convert Junction Trees to DGLGraph
+
+create junction tree DGLGraph by passing mol_tree to moltree_to_dglgraph --> returns a DGLGraph
+
+Next Step: batch the junction trees and labels and feed to the GNN
+junction trees must have node data:
+junction tree have 'h' as node data and 'e' as edge data
+
+***************solve RDKit vectInt problem first to get tree decomp.
