@@ -36,6 +36,6 @@ junction tree have 'h' as node data and 'e' as edge data
 Edge data taken off for now, potentially add them back via one-hot encoding in dgllife package
 Add in the node features, just one-hot encode for now. Worry about avging node features of rings after REU
 
-***************solve RDKit vectInt problem first to get tree decomp.
-Look between server and local versions
-run a test on local first
+RDKit vectInt function names according to OS:
+Windows: vectInt
+Linux: vecti
